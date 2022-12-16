@@ -1,0 +1,369 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0A192F;
+}
+/* Header section Starts. */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    color: #61dafb;
+    width: auto;
+}
+header h3 {
+    color: #ffffff;
+}
+.title-span{
+    color: #61dafb;
+}
+
+/* main section vbegins*/
+
+.potrait{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 30px 20px;
+}
+
+.card-potrait{
+    height: 440px;
+    width: 250px;
+    background-color: rgb(7, 12, 12);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid #61dafb;
+}
+
+.dog-info{
+    height: 70px;
+}
+.purchase-info{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.purchase-info button{
+    border-radius: 15px;
+    height: 40px;
+    background-color: #fff;
+    font-weight: bold;
+}
+.purchase-info button:hover{
+    background-color: #61dafb;
+}
+
+.img-box-potrait1{
+    width: 220px; 
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/german-shepherd.jpg);
+    background-size: cover;
+}
+.img-box-potrait2{
+    width: 220px; 
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/alaskan-malamute.jpg);
+    background-size: cover;
+}
+.img-box-potrait2{
+    width: 220px; 
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/alaskan-malamute.jpg);
+    background-size: cover;
+}
+.img-box-potrait3{
+    width: 220px; 
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/boerboel.jpg);
+    background-size: cover;
+}
+.img-box-potrait4{
+    width: 220px; 
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/beagle.jpg);
+    background-size: cover;
+}
+.img-box-potrait5{
+    width: 220px; 
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/Chiwawa.jpg);
+    background-size: cover;
+}
+.img-box-potrait6{
+    width: 220px; 
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/Corgi.jpg);
+    background-size: cover;
+}
+.img-box-potrait7{
+    width: 220px; 
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/havanese-puppy.jpg);
+    background-size: cover;
+}
+.img-box-potrait8{
+    width: 220px; 
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/pitbull.jpg);
+    background-size: cover;
+}
+.img-box-potrait9{
+    width: 220px; 
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/Siberian-husky.jpg);
+    background-size: cover;
+}
+.img-box-potrait10{
+    width: 220px; 
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/Shiba-inu.jpg);
+    background-size: cover;
+}
+.img-box-potrait11{
+    width: 220px; 
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/pug.jpg);
+    background-size: cover;
+}
+.img-box-potrait12{
+    width: 220px; 
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/miniature-poodle.jpg);
+    background-size: cover;
+}
+
+section p{
+    padding-left: 15px;
+    font-style: italic;
+    font-weight: 600;
+    color: aliceblue;
+    
+}
+section p span{
+    font-weight: bold;
+    color: #8892b0;
+}
+
+
+/* second section */
+
+.landscape {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    padding: 20px;
+    gap: 10px;
+}
+
+.card-landscape {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(7, 12, 12);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid #61dafb;
+    padding-top: 20px;
+}
+
+
+.landscape-info{
+    display: flex;
+    padding-bottom: 10px;
+}
+.dog-info-landscape {
+    height: 70px;
+    width: 50%;
+}
+
+.purchase-info-landscape {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 50%;
+    padding-right: 15px;
+}
+.purchase-info-landscape p{
+    padding-left: 0px;
+}
+
+.purchase-info-landscape button {
+    border-radius: 15px;
+    height: 40px;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.purchase-info-landscape button:hover {
+    background-color: #61dafb;
+}
+
+
+.img-box-landscape1 {
+    width: 370px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/wide-azwakh.jpg);
+    background-size: cover;
+}
+.img-box-landscape2 {
+    width: 370px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/wide-Barbet.jpg);
+    background-size: cover;
+}
+.img-box-landscape3 {
+    width: 370px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/wide-Belgian-Sheepdog.jpg);
+    background-size: cover;
+}
+.img-box-landscape4 {
+    width: 370px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/wide-Eurasier.jpg);
+    background-size: cover;
+}
+.img-box-landscape5 {
+    width: 370px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/wide-rottweiler.jpg);
+    background-size: cover;
+}
+.img-box-landscape6 {
+    width: 370px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-image: url(./images/wide-Bichon-Frise.jpg);
+    background-size: cover;
+}
+
+/* Styling the footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+footer p {
+    font-style: normal;
+}
+
+/* Queries for responsive design */
+@media only screen and (max-width: 1274px) {
+    .landscape {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 1233px) {
+    .potrait {
+            grid-template-columns: auto auto auto;
+        }
+}
+
+@media only screen and (max-width: 768px) {
+    .potrait{
+    grid-template-columns: auto auto;
+}
+    .landscape{
+    grid-template-columns: auto;
+}
+}
+@media only screen and (max-width: 650px) {
+    .potrait{
+    grid-template-columns: auto;
+}
+.landscape {
+    grid-template-columns: auto;
+}
+}
+
